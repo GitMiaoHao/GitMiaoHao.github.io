@@ -1823,7 +1823,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d563ff;
+  background: #03965e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2991,19 +2991,13 @@ pre .javascript .function {
     text-align: justify;
   }
 }
-@media screen and (min-width: 1200px) {
-  body {
-    background-image: url("/images/stardust_@2X.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-  #footer a {
-    color: #eee;
-  }
+body {
+  background: url("https://source.unsplash.com/random/1920x1080");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
 }
 .main-inner {
   background: #fff;
-  opacity: 0.95;
+  opacity: 0.8;
 }
